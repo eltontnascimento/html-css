@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(248, 248, 143);
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, greenyellow, green, darkgreen);
+    color: white;
+}
+
+header > h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.623);
+    font-size: 2.5em;
+}
+
+header > p {
+    display: inline-box;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 600px;
+    font-weight: bold;
+}
+
+nav > a {
+    display: inline-block;
+    color: greenyellow;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+.home:hover {
+    background-color: lightgreen;
+}
+
+.noticias:hover {
+    background-color: lightgreen;
+}
+
+.curiosidades:hover {
+    background-color:lightgreen;
+}
+
+.faleconosco:hover {
+    background-color: lightgreen;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+article {
+    background-color: white;
+    width: 940px;
+    margin: 0px auto 20px auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+}
+
+article > h1 {
+    font-size: 1.8em;
+}
+
+.video {
+    display: block;
+    background-color: darkgreen;
+    padding: 20px;
+}
+
+ul > div {
+    display: inline-block;
+    width: 300px;
+}
+
+.extra {
+    display: block;
+    background-color: greenyellow;
+    border-radius: 10px;
+    width: 900px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+}
+
+.extra > h3 {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+.extra > p {
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Idroid', sans-serif;
+    color: darkgreen;
+    background-color: greenyellow;
+    padding-left: 20px;
+    font-size: 1.8em;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 16px 16px 16px 16px;
+    font-size: 1.2em;
+}
+
+.ultimop {
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+}
+
+.primeiro {
+    font-family: 'Idroid', sans-serif;
+    color: green;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+    margin: 0px;
+}
+
+.negrito {
+    font-weight: bold;
+}
